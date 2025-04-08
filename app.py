@@ -1,11 +1,3 @@
-# brew install python@3.9 
-# python3.9 -m venv .venv
-# source .venv/bin/activate
-# pip install healthcheck    
-# pip install flask
-# pip install six
-# pip freeze > requirements.txt
-
 from flask import Flask, jsonify
 import redis
 import os
