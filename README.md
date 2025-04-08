@@ -1,11 +1,12 @@
-# 📦 Задание 1: Docker image
-🔧 Сборка и запуск
-'''
+executor: Selivonchick Sergey
+
+## Задание 1: Docker image
+* Build and launch:
+```bash
 docker build -t flask-ping .
 docker run -p 5000:5000 flask-ping
-'''
-
-🔍 Проверка
-'''
+```
+* Сheck
+```bash
 curl http://localhost:5000/ping
-'''
+```
